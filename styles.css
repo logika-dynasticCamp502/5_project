@@ -92,3 +92,7 @@ input:hover {
 input:focus {
     border: 3px solid rgb(0, 199, 0);
 }
+
+.order-end {
+    margin-top: 100px;
+}
