@@ -96,3 +96,22 @@ input:focus {
 .order-end {
     margin-top: 100px;
 }
+
+.container {
+    text-align: center;
+}
+
+.back {
+    border: 2px solid rgba(180, 87, 0, 0.76);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+
+    color: rgb(255, 132, 16);
+}
+
+.back:hover {
+    border: 3px solid rgba(180, 87, 0, 0.76);
+}
+
