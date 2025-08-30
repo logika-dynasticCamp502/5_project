@@ -1,0 +1,94 @@
+body {
+    background-color: #FFDAB9;
+    font-family: Roboto;
+}
+
+nav lu {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    border: 2px solid purple;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    border: 4px solid purple;
+}
+
+h1, h2, h3{
+    color: rgb(255, 132, 16);
+    text-align: center;
+    
+}
+
+p, label { 
+    color: rgba(180, 87, 0, 0.76);
+    text-align: center;
+    font-size: 20px;
+}
+
+details {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(180, 87, 0, 0.76);
+}
+
+details details {
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: dotted;
+    color: rgba(0, 180, 165, 0.76);
+    text-decoration-color: black;
+}
+
+footer p {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.link:hover {
+    font-weight: bold;
+}
+
+details:hover {
+    font-weight: bold;
+}
+
+details details{
+    font-weight: normal;
+}
+
+details details p {
+    font-weight: normal;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    outline: none;
+    border: 2px solid rgba(180, 87, 0, 0.76);
+    border-radius: 10px;
+}
+input:hover {
+    border: 3px solid rgba(180, 87, 0, 0.76);
+}
+input:focus {
+    border: 3px solid rgb(0, 199, 0);
+}
