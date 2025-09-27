@@ -120,3 +120,6 @@ input:focus {
     border: 3px solid rgba(180, 87, 0, 0.76);
 }
 
+.map {
+    text-align: center;
+}
